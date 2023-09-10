@@ -4,3 +4,15 @@
     flex-direction: row;
     justify-content: center;
 }
+@media screen and (max-width: 500px) {
+    .articles{
+        display:flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 300px) {
+    .articles{
+        display:flex;
+        flex-direction: column;
+    }
+}
